@@ -1,55 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Exemplo de Materia em um Blog</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
 
-    <body>
-        <h1 id="inicio">Exemplo de Matéria em um Blog</h1>
-        <hr/>
+    <h2>Índice</h2>
+   
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#cli">O que são <i>Clients</i>?</a></li>
+        <li><a href="#server">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#ref">Links de referências</a></li>
+    </ul>
 
-        <li><a href="#definicao">O que é HTML?</a></li>
-        <li><a href="#como-surgiu">Como surgiu a HTML?</a></li>
-        <li><a href="#ano-inventado">Em que ano o HTML foi inventado e por quem?</a></li>
-        <li><a href="#funcao">Qual é a principal função do HTML?</a></li>
-        <li><a href="#caracter">Quais são as características do HTML?</a></li>
-        <li><a href="#estrutura">Como é a estrutura de um HTML?</a></li>
-        <li><a href="#importantes">O que é uma tag HTML e quais são as mais importantes?</a></li>
+    <h2 id="historia">História dos computadores</h2>
+    
+    <small><a href="#inicio">(voltar)</a></small>
 
-        <h2 id="definicao">O que é HTML?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.</p>
-        <p></p>      
-        
-        <h2 id="como-surgiu">Como surgiu a HTML?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>O HTML foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça. Ele surgiu com a ideia de um sistema de hipertexto na internet. Hipertexto significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente.</p>
-        <p></p> 
+   <p>O primeiro computador eletrônico foi o <strong>ENIAC</strong> <i>(Electronic Numerical Integrator and Computer)</i> , projetado pela <u><a href="https://www.upenn.edu/"> Universidade da Pennsylvania</a></u> para calcular tiros de artilharia durante a <u>2ª Guerra Mundial</u> (só que quando ele ficou pronto a guerra tinha acabado). Ele era capaz de registrar <i>20 números com 10 dígitos cada</i> , pesava <strong>30 toneladas e ocupava 3 salas</strong>. Possuía válvulas à vácuo, capazes de armazenar um bit de informação. As válvulas à vácuo falhavam com freqüência, criando um desconfiança quanto aos computadores. A única memória existente eram os cartões perfurados e a linguagem de programação era a linguagem de máquina.
+    Nos anos 50, com a descoberta dos semicondutores, surgiram o <i>diodo e o transistor</i> . Este último, inventado por <strong>Walter Brattain e John Barden</strong>  nos laboratórios Bell, substituiu a válvula, permitindo a redução do tamanho dos circuitos e aumentando a confiabilidade dos equipamentos. Somente a partir de 1951 é que começaram a ser construídos os <u>primeiros computadores</u> em série e passou a ser permitida a comercialização dos mesmos. Cada unidade custava em média <strong>3 milhões de dólares</strong>.</p> 
 
-        <h2 id="ano-inventado">Em que ano o HTML foi inventado e por quem?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995.</p>
-        <p></p> 
 
-        <h2 id="funcao">Qual é a principal função do HTML?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>HTML (Linguagem de Marcação de Hipertexto) é o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas</p>
-        <p></p> 
+    <h2 id="cli">O que são <i>Clients</i>?</h2>
 
-        <h2 id="caracter">Quais são as características do HTML?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>Uma característica importante do hipertexto é que ele é representado por conteúdos multimídia, que são arquivos em formato de texto, imagens, vídeos, ilustrações, áudios e links. Ou seja, a forma como as informações são apresentadas na web. Desde que surgiu, o HTML evoluiu por muitos anos até chegar à atual versão 5.</p>
-        <p></p>
+    <small><a href="#inicio">(voltar)</a></small>
 
-        <h2 id="estrutura">Como é a estrutura de um HTML?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>A estrutura principal deve iniciar com a etiqueta <HTML> e terminar com a etiqueta </HTML>. O cabeçalho, delimitado pelas etiquetas <HEAD> e </HEAD>, destina-se a conter informações sobre o documento - por exemplo, o título do documento (que é construído com o elemento TITLE e aparece no título da janela do navegador).</p>
-        <p></p>
+    <p> No desenvolvimento da <a href="https://pt.wikipedia.org/wiki/World_Wide_Web">web</a> web, <i>"lado do cliente"</i>  refere-se a tudo em um aplicativo web que é exibido ou ocorre no <strong>cliente</strong> cliente (dispositivo do usuário final). Isso inclui o que o usuário vê, como texto, imagens e o resto da IU, junto com quaisquer ações que um aplicativo execute no <u>navegador</u> do usuário.</p>
 
-        <h2 id="importantes">O que é uma tag HTML e quais são as mais importantes?</h2>
-        <small><a href="#inicio">(voltar)</a></small>
-        <p>Tag de abertura: Usado para indicar onde um item começa. É envolto em suportes de abertura e fechamento. Por exemplo, você pode usar a tag start <p> para criar um parágrafo</p>
-        <p>Conteúdo: O conteúdo é o resultado que o público vê.</p>
-        <p>Tag de fechamento: É o mesmo que a tag de abertura, mas com uma barra na frente do nome do elemento. Ou seja, </p> para terminar um parágrafo.</p>
-    </body>
+    <h2 id="server">O que são <i>Servers</i>?</h2>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+    <p>Muito parecido com o lado do <strong>cliente</strong> , o <i>"lado do servidor"</i> significa tudo o que acontece no <a href="https://www.controle.net/faq/o-que-sao-servidores"><strong>servidor</strong></a> , em vez de no <i>cliente</i> . No passado, quase toda a lógica de negócios era executada no lado do <u>servidor</u>  e isso incluía renderizar páginas da <strong>web</strong> dinâmicas, interagir com <a href="https://www.oracle.com/br/database/what-is-database/#:~:text=Um%20banco%20de%20dados%20%C3%A9,banco%20de%20dados%20(DBMS)."><i>bancos de dados</i></a> , autenticação de identidade e notificações push.</p>
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+
+    <small><a href="#inicio">(voltar)</a></small>
+    
+    <p>Um documento <strong>HTML</strong> válido precisa seguir obrigatoriamente a estrutura composta pelas <i><a href="https://www.w3schools.com/tags/">tags html</a></i>, head e body e a instrução <strong>!DOCTYPE</strong> . Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os <u>navegadores</u> devem considerar e interpretar estas <u>tags</u>, esta documentação é chamada de <i>"especificação do HTML"</i>, e através do que está declarado nela que é possível entender se um documento <strong>HTML</strong> válido. Um documento <strong>HTML</strong> inválido é carregado pelo <u>navegador</u> , porém em um <i>"modo de compatibilidade"</i>, vamos entender melhor sobre isto logo mais.</p>
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+    <p>As listas <strong>HTML</strong> permitem que os desenvolvedores da web agrupem um conjunto de itens relacionados em <i><a href="https://www.w3schools.com/html/html_lists.asp">listas</a></i>. Uma <u>lista não ordenada</u> começa com a tag <strong>ul</strong>. Cada item da lista começa com a tag <strong>li</strong>. Os itens da <u>lista</u>  serão marcados com marcadores <i>(pequenos círculos pretos)</i> por padrão. Uma lista ordenada começa com a tag <strong>ol</strong>. Cada item da lista começa com a tag <strong>li</strong>. Os itens da lista serão marcados com <i>números</i> por padrão.</p>
+
+    <h2 id="ref">Links de referências</h2>
+
+    <small><a href="#inicio">(voltar)</a></small>
+
+    <ul>
+        <li><a href="https://www.dio.me/">http://dio.me</a></li>
+        <li><a href="https://www.w3.org/">http://w3c.org</a></li>
+    </ul>
+
+</body>
 </html>
